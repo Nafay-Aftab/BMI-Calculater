@@ -9,8 +9,8 @@ A simple **BMI (Body Mass Index) Calculator** that allows users to enter their *
 ✅ **Fully responsive** 📱💻  
 
 ## 📸 Preview  
-![BMI Calculator Screenshot](![image](https://github.com/user-attachments/assets/1b6ec37f-ba07-4576-8917-218ea6d9360d)
-)  
+![image](https://github.com/user-attachments/assets/1b6ec37f-ba07-4576-8917-218ea6d9360d)
+  
 
 ## 🔗 Live Demo  
 🔗 **View Live Demo:** [https://your-netlify-link-here/](https://bmi-calculater-app.netlify.app) 🚀  
