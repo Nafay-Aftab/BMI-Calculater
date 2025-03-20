@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #48c6ef, #6f86d6);
+      }
+
+      .container {
+        background: white;
+        width: 350px;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        text-align: center;
+      }
+
+      h2 {
+        color: #333;
+        margin-bottom: 15px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        
+      }
+
+      label {
+        font-size: 16px;
+        font-weight: bold;
+        color: #444;
+      }
+
+      input {
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      button {
+        background: #48c6ef;
+        color: white;
+        font-size: 17px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      button:hover {
+        background: #357abd;
+      }
+
+      #result {
+        font-size: 18px;
+        font-weight: bold;
+        color: #222;
+        margin-top: 10px;
+      }
+
+      .guide {
+        margin-top: 15px;
+        padding: 10px;
+        border-radius: 8px;
+        background: #f8f8f8;
+      }
+
+      .guide h3 {
+        color: #444;
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>BMI Calculator</h2>
+      <form>
+        <div>
+          <label>Height in CM:</label>
+          <input type="text" id="height" placeholder="Enter height" />
+        </div>
+        <div>
+          <label>Weight in KG:</label>
+          <input type="text" id="weight" placeholder="Enter weight" />
+        </div>
+        <button type="submit">Calculate</button>
+        <div id="result"></div>
+        <div class="guide">
+          <h3>BMI Weight Guide:</h3>
+          <p>Underweight = Less than 18.6</p>
+          <p>Normal range = 18.6 - 24.9</p>
+          <p>Overweight = More than 24.9</p>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
