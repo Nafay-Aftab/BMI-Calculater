@@ -13,7 +13,7 @@ A simple **BMI (Body Mass Index) Calculator** that allows users to enter their *
   
 
 ## 🔗 Live Demo  
-🔗 **View Live Demo:** [https://your-netlify-link-here/](https://bmi-calculater-app.netlify.app) 🚀  
+🔗 **View Live Demo:** (https://bmi-calculater-app.netlify.app) 🚀  
 
 ## 🛠️ Technologies Used  
 🖥️ **HTML5** – Structure of the page  
